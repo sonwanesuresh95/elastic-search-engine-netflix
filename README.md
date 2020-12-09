@@ -18,6 +18,7 @@ Make sure its up and running<br>
 Use Python terminal / Jupyter Notebook<br>
 ```
 # create instance of Elasticfind class
+from elasticfind import Elasticfind
 ef = Elasticfind(index='netflix')
 ```
 Create index and ingest the data into it
